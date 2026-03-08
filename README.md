@@ -112,47 +112,5 @@ ScreenshotHelper
 
 Captures screenshots automatically when a test fails.
 
-6. How to Run the Project
-Step 1: Clone the Repository
-git clone https://github.com/your-username/demo-webshop-automation.git
-Step 2: Open the Project
 
-Import the project in Eclipse / IntelliJ IDEA as a Maven project.
 
-Step 3: Install Dependencies
-
-Maven will automatically download dependencies from pom.xml.
-
-You can also run:
-
-mvn clean install
-Step 4: Execute Tests
-
-Run the TestRunner class to execute all Cucumber scenarios.
-
-Or run from Maven:
-
-mvn test
-7. Test Reporting
-
-After execution, test reports are generated using Cucumber Reports which provide:
-
-Passed test cases
-
-Failed test cases
-
-Execution time
-
-Step level details
-
-Reports can be found in:
-
-/target/cucumber-reports
-8. GitHub Repository
-
-Add your project repository link here:
-
-https://github.com/your-username/demo-webshop-automation
-9. Author
-
-Automation Framework developed as part of Automation Testing Assignment using Selenium, TestNG, and Cucumber.
